@@ -234,6 +234,34 @@
 		top:33px;
 		left:16%;
 	}
+		.banner h1 {
+    	font-size: 30px;
+	}
+		.banner p {
+    	font-size: 14px;
+	}
+	.btn-secondary{
+		margin-top: 15px;
+	}
+	}
+	.beautifull-description h3::before {
+    	display: none;
+	}
+	.feature-description h3::before {
+    	display: none;
+	}
+	.beautifull-description h3::after {
+    	display: none;
+	}
+	.feature-description h3::after {
+    	display: none;
+	}
+	.pricing-description h3::before {
+    	display: none;
+	}
+	.pricing-description h3::after {
+    	display: none;
+	}
 }
 @media only screen and (max-width: 540px){
 	.beautifull-description h3::before {
@@ -257,4 +285,13 @@
 	.message-form {
     	padding-left: 57px;
 	}
+	@media only screen and (max-width: 414px) {
+		.navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-xl {
+    	padding-right: 140px;
+    	padding-left: 0;
+	}
+	.navbar-toggler {
+    font-size: 18px;
+    padding-right: 5px;
+}
 }
