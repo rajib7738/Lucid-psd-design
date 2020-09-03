@@ -1,0 +1,260 @@
+@media only screen and (max-width: 1199px) {
+	.banner h1 {
+    font-size: 44px;
+	}
+	.litle-description h3::before {
+    top: 66px;
+    left: 53%;
+	}
+	.beautifull-description h3::before {
+    left: 15%;
+	}
+	.pricing-description h3::before {
+    top: 65px;
+	}
+	.banner-btn {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	}
+	header {
+    padding-top: 100px;
+	}
+	
+	.banner p{
+		font-size: 15px;
+	}
+
+	.litle-description h3::before {
+    top: 66px;
+    left: 53%;
+	}
+	.beautifull-description h3::before {
+    left: 15%;
+	}
+	.pricing-description h3::before {
+    top: 65px;
+	}
+	.price-middle {
+    padding-tp: 34px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    border-bottom: 1px solid #E0E0E0;
+	}
+	.end-prag p {
+    font-size: 15px;
+	}
+	.btn-price{
+		margin-bottom: 20px;
+	}	
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar-nav {
+    background:rgba(0,142,214,0.8); 
+    border-radius: 5px;
+    padding-bottom: 20px;
+	}
+	.navbar-nav .nav-link {
+    	padding-left: 50px;
+	}
+	.nav-link:hover:after{
+	content: "";
+	width: 4%;
+	height: 3px;
+	background:#FFF; 
+	display: block;
+	margin-top: 10px;
+	position: absolute;
+	}
+.nav-link:hover:before{
+	content: "";
+	width: 4%;
+	height: 3px;
+	background:#FFF; 
+	display: block;
+	position: absolute;
+	top:33px;
+	left:13%;
+	}
+	.banner h1 {
+    	font-size: 30px;
+	}
+	.banner p {
+    	font-size: 14px;
+	}
+	.btn {
+   		 padding: 13px 25px;
+	}
+	.header-img {
+    	margin-top: 54px;
+	}
+	.litle-description h3::before {
+    	top: 66px;
+    	left: 53%;
+	}
+	.feature-description h3::before{
+		top: 65px;
+	}
+	.feature-description h3::after{
+		left: 42%;
+	}
+	.beautifull-description h3::before {
+    	left: 22%;
+    	top: 108px;
+	}
+	.pricing-description h3::before {
+   	 	top: 65px;
+	}
+	.pricing-description h3::after {
+    	left: 42%;
+	}
+	.contact-form {
+    	width: 666px;
+	}
+	.form-items {
+    	width: 49%;
+    	padding-left: 20px;
+
+	}
+	.message-form {
+    	padding-left: 15px;
+	}
+	.btn-contact {
+   		margin-right: 10px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.nav-link:hover:after{
+		content: "";
+		width: 4%;
+		height: 3px;
+		background:#FFF; 
+		display: block;
+		margin-top: 10px;
+		position: absolute;
+	}
+.nav-link:hover:before{
+		content: "";
+		width: 4%;
+		height: 3px;
+		background:#FFF; 
+		display: block;
+		position: absolute;
+		top:33px;
+		left:15%;
+	}	
+	.banner h1 {
+    	font-size: 45px;
+	}
+	.banner p {
+    	font-size: 18px;
+	}
+	.feature-description h3::after {
+    	left: 39%;
+	}
+	.beautifull-description h3::before {
+    	left: 14%;
+    	top: 66px;
+	}
+	.pricing-description h3::after {
+    	left: 38%;
+	}
+	.contact-item3 {
+    	margin-top:-20px;
+	}
+	.slider-img {
+    	margin-bottom: 77px;
+	}
+	.slider-paragarph {
+    	font-size: 20px;
+	}
+	.contact-form {
+    	width: 514px;
+    	height: 483px;
+	}
+	
+	.contact-form {
+    	margin-top: -453px;
+	}
+	.form-items {
+    	margin-left: 80px;
+    	padding-left: 0;
+	}
+	.message-form {
+    	padding-left: 82px;
+	}
+	.message-form {
+    	padding-top: 0px;
+	}
+	.form-control {
+    	width: 368px;
+    	height: 47px;
+    	padding: 20px;
+    	margin: 12px 0;
+	}
+	.message-form textarea {
+    	width: 368px;
+    	height: 151px;
+	}
+	.btn-contact {
+    	margin-right: 23px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.beautifull-description {
+    	text-align: left;
+    	margin-left: 30px;
+	}
+	.navbar-toggler {
+	    font-size: 18px;
+    padding-right: 30px;
+	}
+	.navbar-brand {
+    	padding-left: 30px;
+	}
+	.like-what{
+		text-align: center;
+	}
+	.banner{
+		text-align: center;
+	}
+	.banner-btn{
+		margin-left: 100px;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.nav-link:hover:before{
+		content: "";
+		width: 4%;
+		height: 3px;
+		background:#FFF; 
+		display: block;
+		position: absolute;
+		top:33px;
+		left:16%;
+	}
+}
+@media only screen and (max-width: 540px){
+	.beautifull-description h3::before {
+    	left: 17%;
+    	top: 65px;
+	}
+	.feature-description h3::before {
+    	top: 66px;
+    	left: 55%;
+	}
+	.contact-form {
+   	 	width: 480px;
+   	 	height: 510px;
+	}
+	.btn-contact {
+    	margin-right: 30px;
+	}
+	.form-items {
+    	margin-left: 54px;
+	}
+	.message-form {
+    	padding-left: 57px;
+	}
+}

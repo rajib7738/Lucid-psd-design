@@ -1,0 +1,503 @@
+/* =============== */
+/* BASIC SETUP */
+/* =============== */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+*{margin:0;padding:0;
+	box-sizing: border-box;
+	}
+
+body{font-family: 'Source Sans Pro', sans-serif; 
+	transition:all 0.5s ease;-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	text-rendering: optimizeLegibility; 
+	line-height: 1.3rem;
+	font-size: 1.6rem;
+}
+
+:focus{
+	outline: 0;
+}
+
+body, html{height:100%;}
+img{max-width:100%}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+h1, h2, h3, h4, h5, h6{font-weight:normal;margin-top:10px;margin-bottom:10px}
+p{line-height: 150%;margin-bottom: 2em;}
+ul li{list-style-type: none;}
+html{font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+.btn{
+	padding: 15px 30px;
+	margin-right: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-radius: 5px;
+	
+}
+button:focus{
+	outline: 0 dotted;
+}
+
+/* =============== */
+/* Reusable component */
+/* =============== */
+.litle-description{
+	color: #23242B;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.litle-description h3{
+	font-size: 36px;
+	font-weight: 450;
+	position: relative;
+	letter-spacing: 1.5px;
+
+}
+.litle-description span{
+	color: #008ED6;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.litle-description h3::after {
+	content: "";
+    width: 60px;
+    height: 3px;
+    background: #008ED6;
+    display: block;
+    margin-top: 22px;
+    position: absolute;
+    left: 45%;
+}
+.litle-description h3::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #008ED6;
+    display: block;
+    position: absolute;
+    top: 65px;
+    left: 51%;
+}
+
+/* =============== */
+/* Reusable component EnD */
+/* =============== */
+header{
+	background:url(imgcss/header-cover.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 140px;
+
+}
+.fa-bars { #999999;
+    background: #008ED6; 
+    padding: 5px 10px;
+    font-size: 29px;
+    border-radius: 5px;
+}
+.icon-bar-img{
+	background: #008ED6; 
+	border-radius: 5px;
+}
+.navbar-toggler {
+    font-size: 21px;
+    line-height: 1;
+    padding: 20px 0;
+}
+.navbar ul li a{
+	color: #fff;
+}
+.nav-link{
+	color: #fff;
+	padding: 10px;
+	position: relative;
+}
+
+.nav-link:hover:after{
+	content: "";
+	width: 45%;
+	height: 3px;
+	background:#008ED6; 
+	display: block;
+	margin-top: 10px;
+	position: absolute;
+}
+.nav-link:hover:before{
+	content: "";
+	width: 45%;
+	height: 3px;
+	background:#008ED6; 
+	display: block;
+	position: absolute;
+	top:33px;
+	left:60%;
+}
+
+
+.banner{
+	color: #fff;
+	margin-top: 40px;
+}
+.banner span{
+	color: #008ED6;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+.banner h1{
+	font-size: 48px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-top: 20px;
+
+}
+.banner p{
+	color: #999999;
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-top: 20px;
+	
+}
+.banner-btn {
+	margin-top: 60px;
+
+}
+.banner-btn .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #49494B;
+}
+.banner-btn .btn-secondary{
+	background: transparent;
+	border: 1px solid #49494B;
+}
+.banner-btn .btn-secondary:hover{
+	background: #008ED6;
+	border: 1px solid #008ED6;
+}
+/* =============== */
+/* FEATURE SECTION*/
+/* =============== */
+#features{
+	border-bottom: 2px solid #EDEDED;
+}
+.feature-item{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.feature-icon {
+    border: 1px solid #e1e1e1;
+    font-size: 30px;
+    color: #008ed6;
+    padding: 25px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.feature-icon-mbl{
+	border: 1px solid #e1e1e1;
+    font-size: 30px;
+    color: #008ed6;
+    padding: 25px 30px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.feature-item h4{
+	font-size: 24px;
+	color: #1a1a1a;
+	margin-bottom: 15px;
+
+}
+.feature-item p{
+	color: #999999;
+	font-size: 18px;
+}
+/* =============== */
+/*ABOUT SECTION*/
+/* =============== */
+#about{
+	margin-bottom: 30px;
+	margin-top: 65px;
+}
+.beautifull-description{
+	text-align: left;
+}
+.beautifull-description h3::after {
+	content: "";
+    width: 60px;
+    height: 3px;
+    background: #008ED6;
+    display: block;
+    margin-top: 22px;
+    position: absolute;
+    left: 0;
+
+}
+.beautifull-description h3::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #008ED6;
+    display: block;
+    position: absolute;
+    top: 65px;
+    left: 12%;
+}
+
+.about-item{
+	margin-top: 50px;
+	text-align: left;
+}
+.about-item p{
+	color: #999999;
+	font-size: 18px;
+}
+.about-icon p{
+	color: #1b1b1b;
+}
+.about-icon{
+	margin-bottom: -20px;
+}
+.about-icon i{
+	color: #44ACE1;
+}
+/* =============== */
+/*TESTIMONIALS SECTION*/
+/* =============== */
+#testimonials{
+	background: #F2F2F2;
+	padding-top: 50px;
+}
+/* =============== */
+/*PRICING SECTION*/
+/* =============== */
+#pricing{
+	background: url(imgcss/cover2.jpg) no-repeat;
+	background-size: cover;
+
+}
+.slider-up{
+	padding-top: 50px;
+	
+}
+.slider-paragarph{
+	color: #fff;
+	font-size: 24px;
+}
+.slider-content h5{
+	color: #fff;
+	font-size: 18px;
+}
+.slider-content p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+.slider-img{
+	margin-right: 20px;
+	margin-bottom: 130px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+/*PRICING DOWN SECTION*/
+#price-down{
+	background: #15141A;
+	margin-top: 50px;
+
+}
+.like-what h3{
+	color: #fff;
+	font-size: 36px;
+	padding: 50px 0px;
+}
+/*PRICING PLAN SECTION*/
+#price-plan{
+	background: #fff;
+	padding-bottom: 50px;
+}
+
+.btn-price{
+	background: transparent;
+	color: #008ED6;
+	font-size: 14px;
+	text-align: center;
+	border: 2px solid #E0E0E0;
+	padding: 15px 40px;
+	margin-bottom: 30px;
+}
+.price-items{
+	border: 1px solid #E0E0E0;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 5px;
+
+}
+.price-items:hover h2{
+	color: #008ED6;
+}
+.price-items:hover .price-middle{
+	background: #008ED6;
+	color: #fff; 
+}
+.price-items:hover .btn-price{
+	color: #fff;
+	background: #008ED6;
+	border: none;
+	border: 2px solid #008ED6;
+}
+
+.price-items h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+	padding: 12px 0;
+	border-bottom: 1px solid #E0E0E0;
+}
+.price-middle {
+    padding: 34px 0;
+    margin-top: -10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.price-middle h3{
+	font-size: 55px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.price-middle span{
+	font-size: 30px;
+}
+.price-h3{
+	font-size: 55px;
+}
+.price-middle p{
+	margin-top: 20px;
+}
+.end-prag p{
+	font-size: 18px;
+	color: #999999;
+	padding: 0 5px;
+}
+/* =============== */
+/*CONTACT SECTION*/
+/* =============== */
+#contact{
+	background: #EDEDED;
+	padding-bottom: 300px;
+}
+.contact-item{
+	text-align: center;
+	margin-top: 45px;
+}
+.contact-item p{
+	font-size: 18px;
+	color: #535353;
+
+}
+.contact-item i{
+	color: #44ACE1;;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+/* =============== */
+/*PRICING SECTION*/
+/* =============== */
+#contact-form{
+	background: url(imgcss/map.jpg) no-repeat;
+	padding: 200px 0;
+}
+form{
+	background: #15141A;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.form input{
+	margin-bottom: 20px;
+}
+.contact-form{
+	width: 770px;
+	height: 370px;
+	background:#15141A;
+	margin: 0 auto; 
+	margin-top: -500px;
+	border-radius: 5px;
+}
+.form-items{
+	width: 49%;
+	padding-left: 60px;
+	padding-top: 40px;
+}
+.form-control{
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	color: #606062;
+	background: transparent;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px 0;
+}
+.message-form{
+	width: 49%;
+	padding-top: 40px;
+}
+.message-form textarea{
+	font-size: 14px;
+	color: #606062;
+	background: transparent;
+	border-radius: 5px;
+	padding: 12px;
+	font-weight: 700;
+	width: 300px;
+	height: 190px;
+}
+.btn-contact{
+	color: #fff;
+	background: #008ED6;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	padding: 15px 40px;
+	margin-top: 15px;
+	float: right;
+	margin-right: 74px;
+}
+/* =============== */
+/*FOOTER SECTION*/
+/* =============== */
+#footer{
+	background: #15141a;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom:padding
+}
+.footer-icon{
+	color: #444348;
+	font-size: 30px;
+
+}
+.footer-icon i:hover{
+	color: #008ed6;
+}
+.footer-icon i{
+	padding:0 20px;
+	cursor: pointer;
+}
+.footer-paragp{
+	color: #444348;;
+	font-size: 14px;
+	margin-top: 20px;
+}
